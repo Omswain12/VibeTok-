@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VibeTok</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+<header class="header">
+  <h2>VibeTok</h2>
+
+  <div class="top-icons">
+  <button id="searchBtn">🔍</button>
+  <button id="messageBtn">💬</button>
+</div>
+</header>
+
+<section class="stories">
+
+  <div class="story">
+    <img src="assets/user1.jpg">
+    <span>You</span>
+  </div>
+
+  <div class="story">
+    <img src="assets/user2.jpg">
+    <span>Alex</span>
+  </div>
+
+  <div class="story">
+    <img src="assets/user3.jpg">
+    <span>John</span>
+  </div>
+
+  <div class="story">
+    <img src="assets/user4.jpg">
+    <span>Emma</span>
+  </div>
+
+</section>
+
+<main class="feed">
+
+<div class="video-card">
+
+<video autoplay muted loop controls>
+<source src="assets/sample.mp4" type="video/mp4">
+</video>
+
+<div class="video-info">
+    <h3>@OmSwain</h3>
+    <p>🔥 Welcome to VibeTok</p>
+    <button class="follow">Follow</button>
+</div>
+
+<div class="actions">
+    <button id="likeBtn">❤️</button>
+    <button id="commentBtn">💬</button>
+    <button id="shareBtn">🔄</button>
+    <button id="saveBtn">🔖</button>
+</div>
+
+</div>
+
+<div class="video-card">
+  <video autoplay muted loop playsinline controls>
+    <source src="assets/sample.mp4" type="video/mp4">
+  </video>
+
+  <div class="video-info">
+    <h3>@OmSwain</h3>
+    <p>🔥 Second Video</p>
+    <button class="follow">Follow</button>
+  </div>
+
+  <div class="actions">
+    <button>❤️</button>
+    <button>💬</button>
+    <button>🔄</button>
+    <button>🔖</button>
+  </div>
+</div>
+
+
+</main>
+
+<nav class="bottom-nav">
+<button>🏠</button>
+<button>🎬</button>
+<button>➕</button>
+<button>❤️</button>
+<button>👤</button>
+</nav>
+
+
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-database-compat.js"></script>
+<script src="firebase.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
